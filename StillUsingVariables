@@ -1,0 +1,14 @@
+public class StillUsingVariables {
+
+    public static void main(String[] args) {
+
+        String hisName;
+        int hisYear;
+
+        hisName = "Bobby Johnson";
+        hisYear = 2016;
+
+        System.out.println( "His name is " + hisName + " and he will graduate in " + hisYear + "." );
+    }
+
+}
