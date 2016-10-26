@@ -1,0 +1,20 @@
+public class MySchedule {
+
+    public static void main(String[] args) {
+
+        String myTeacherSpanish, myTeacherBio, myTeacherGeom, myClassSpanish, myClassBio, myClassGeom;
+
+        myTeacherSpanish = "Mrs. Spears";
+        myTeacherBio = "Mrs. Reed";
+        myTeacherGeom = "Mrs. Steiner";
+        myClassSpanish = "Spanish II";
+        myClassBio = "Biology";
+        myClassGeom = "Geometry";
+
+        System.out.println( "+---------------------------------------------------+" );
+        System.out.println( "|  3  | " + myClassSpanish + " | " + myTeacherSpanish + " |" );
+        System.out.println( "|  4  | " + myClassBio + " | " + myTeacherBio + " |" );
+        System.out.println( "| 5-6 |" + myClassGeom + " | " + myTeacherGeom + " |");
+        System.out.println( "+---------------------------------------------------+");
+    }
+}
